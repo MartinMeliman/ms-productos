@@ -12,6 +12,9 @@ spring:
     name: ms-productos
   profiles:
     active: dev  
+    
+  main:
+    allow-bean-definition-overriding: true
 
 # Registro en Eureka
 eureka:
